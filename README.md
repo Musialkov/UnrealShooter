@@ -14,3 +14,8 @@ This project is a sci-fi shooter set in a futuristic world, played from a third-
 - **Boss Battles:** Introducing powerful bosses that require strategic thinking and skill to defeat.
 - **Collectibles:** Searching for hidden collectibles that expand the player's knowledge about the game world and its lore.
 - **Cutscenes:** Cinematic cutscenes that drive the story forward and reveal key elements of the narrative.
+
+
+![Shooting](https://github.com/user-attachments/assets/61723287-dc25-4909-bc0a-6af896feffcd)
+![Climbing](https://github.com/user-attachments/assets/5f1333b4-ab01-4aa4-b778-4712d07abe07)
+
