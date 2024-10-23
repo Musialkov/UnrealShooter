@@ -92,7 +92,6 @@ private:
 	USphereComponent* AgroSphere;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= "Combat", meta=(AllowPrivateAccess = true, MakeEditWidget = true))
 	USphereComponent* CombatRangeSphere;
-	//TODO zmienić na state machine i sprawdzić czy boole ogólnie bisze się z tym b na początku
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category= "Combat", meta=(AllowPrivateAccess = true))
 	bool bIsStunned;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category= "Combat", meta=(AllowPrivateAccess = true))

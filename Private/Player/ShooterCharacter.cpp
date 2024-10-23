@@ -534,7 +534,6 @@ void AShooterCharacter::EquipWeapon(AWeapon* WeaponToEquip)
 
 void AShooterCharacter::OnStartClimbing()
 {
-	Debug::Print("Otrzymałem wiadomosć o wspicznacze");
 	bUseControllerRotationYaw = false;
 	CombatState = ECombatState::ECS_Climbing;
 	if(EquippedWeapon)
@@ -545,7 +544,6 @@ void AShooterCharacter::OnStartClimbing()
 
 void AShooterCharacter::OnStopClimbing()
 {
-	Debug::Print("Zatrzymuje wspinanie wiadomosć o wspicznacze");
 	bUseControllerRotationYaw = true;
 	CombatState = ECombatState::ECS_Unoccupied;
 	if(EquippedWeapon)
